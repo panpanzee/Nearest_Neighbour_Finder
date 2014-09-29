@@ -5,9 +5,9 @@
 #include <string>
 
 // Kd tree node base class
-// We use this to store the cordinates
-// Derived class should populate the cordinates vector
-// The dimension is determined by the actual size of the cordinates vector
+// We use this to store the coordinates
+// Derived class should populate the coordinates vector
+// The dimension is determined by the actual size of the coordinates vector
 class KdPointConvertable {
 public:
   virtual void print(std::ostream& out) const {}
@@ -26,17 +26,15 @@ protected:
   std::vector<double> m_cordinates;
 };
 
-// Helper functions to calculate the distance
-// and set weights on dimensions
+// Helper functions to calculate the distance and set weights on dimensions
 namespace Distance{
   double get_euclidean_distance(const KdPointConvertable* p1, const KdPointConvertable* p2);
   void set_weights(std::vector<double> weights);
 }
 
 
-// Normalisation class
-// Used to normalise input data
-// and also transform query points to normalised space
+// Normalization class
+// Used to normalize input data and also transform query points to normalized space
 class Normaliser {
 public:
   void normalisation(std::vector<boost::shared_ptr<KdPointConvertable> >& points);
