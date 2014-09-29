@@ -1,0 +1,347 @@
+KDTree construction running time: 1837.59 secondes
+Brute force construction running time: 22.8747 secondes
+KDTree searching running time: 0.096379 secondes
+Brute force searching running time: 44.0729 secondes
+Test point 1 passed
+
+KDTree searching running time: 0.172051 secondes
+Brute force searching running time: 45.3755 secondes
+Test point 2 passed
+
+KDTree searching running time: 0.194688 secondes
+Brute force searching running time: 44.3885 secondes
+Test point 3 passed
+
+KDTree searching running time: 0.876927 secondes
+Brute force searching running time: 44.6525 secondes
+Test point 4 passed
+
+KDTree searching running time: 0.39753 secondes
+Brute force searching running time: 44.7119 secondes
+Test point 5 passed
+
+KDTree searching running time: 0.353644 secondes
+Brute force searching running time: 43.1291 secondes
+Test point 6 passed
+
+KDTree searching running time: 0.06477 secondes
+Brute force searching running time: 42.8078 secondes
+Test point 7 passed
+
+KDTree searching running time: 0.330956 secondes
+Brute force searching running time: 43.9687 secondes
+Test point 8 passed
+
+KDTree searching running time: 0.253607 secondes
+Brute force searching running time: 42.9648 secondes
+Test point 9 passed
+
+KDTree searching running time: 0.187305 secondes
+Brute force searching running time: 43.2759 secondes
+Test point 10 passed
+
+KDTree searching running time: 0.17906 secondes
+Brute force searching running time: 44.0053 secondes
+Test point 11 passed
+
+KDTree searching running time: 0.138637 secondes
+Brute force searching running time: 43.9728 secondes
+Test point 12 passed
+
+KDTree searching running time: 0.0557098 secondes
+Brute force searching running time: 44.6846 secondes
+Test point 13 passed
+
+KDTree searching running time: 0.377799 secondes
+Brute force searching running time: 43.0843 secondes
+Test point 14 passed
+
+KDTree searching running time: 0.102912 secondes
+Brute force searching running time: 43.4476 secondes
+Test point 15 passed
+
+KDTree searching running time: 0.143472 secondes
+Brute force searching running time: 42.6747 secondes
+Test point 16 passed
+
+KDTree searching running time: 0.187758 secondes
+Brute force searching running time: 43.4084 secondes
+Test point 17 passed
+
+KDTree searching running time: 0.209093 secondes
+Brute force searching running time: 43.5298 secondes
+Test point 18 passed
+
+KDTree searching running time: 0.161128 secondes
+Brute force searching running time: 43.8038 secondes
+Test point 19 passed
+
+KDTree searching running time: 0.0827639 secondes
+Brute force searching running time: 43.4364 secondes
+Test point 20 passed
+
+KDTree searching running time: 0.149654 secondes
+Brute force searching running time: 45.1428 secondes
+Test point 21 passed
+
+KDTree searching running time: 0.180317 secondes
+Brute force searching running time: 45.4377 secondes
+Test point 22 passed
+
+KDTree searching running time: 0.280309 secondes
+Brute force searching running time: 45.3166 secondes
+Test point 23 passed
+
+KDTree searching running time: 0.245696 secondes
+Brute force searching running time: 45.2212 secondes
+Test point 24 passed
+
+KDTree searching running time: 0.188387 secondes
+Brute force searching running time: 44.1012 secondes
+Test point 25 passed
+
+KDTree searching running time: 0.135502 secondes
+Brute force searching running time: 45.1406 secondes
+Test point 26 passed
+
+KDTree searching running time: 0.081852 secondes
+Brute force searching running time: 43.5603 secondes
+Test point 27 passed
+
+KDTree searching running time: 0.161456 secondes
+Brute force searching running time: 45.0051 secondes
+Test point 28 passed
+
+KDTree searching running time: 0.105764 secondes
+Brute force searching running time: 44.6864 secondes
+Test point 29 passed
+
+KDTree searching running time: 0.413909 secondes
+Brute force searching running time: 44.5074 secondes
+Test point 30 passed
+
+KDTree searching running time: 0.149106 secondes
+Brute force searching running time: 44.1447 secondes
+Test point 31 passed
+
+KDTree searching running time: 0.185657 secondes
+Brute force searching running time: 43.519 secondes
+Test point 32 passed
+
+KDTree searching running time: 0.114397 secondes
+Brute force searching running time: 44.4259 secondes
+Test point 33 passed
+
+KDTree searching running time: 0.452857 secondes
+Brute force searching running time: 43.9028 secondes
+Test point 34 passed
+
+KDTree searching running time: 0.27447 secondes
+Brute force searching running time: 45.323 secondes
+Test point 35 passed
+
+KDTree searching running time: 0.153307 secondes
+Brute force searching running time: 45.353 secondes
+Test point 36 passed
+
+KDTree searching running time: 0.10836 secondes
+Brute force searching running time: 42.8904 secondes
+Test point 37 passed
+
+KDTree searching running time: 0.254865 secondes
+Brute force searching running time: 43.9211 secondes
+Test point 38 passed
+
+KDTree searching running time: 0.29127 secondes
+Brute force searching running time: 47.5661 secondes
+Test point 39 passed
+
+KDTree searching running time: 0.202704 secondes
+Brute force searching running time: 45.4255 secondes
+Test point 40 passed
+
+KDTree searching running time: 0.0383611 secondes
+Brute force searching running time: 44.3452 secondes
+Test point 41 passed
+
+KDTree searching running time: 0.175585 secondes
+Brute force searching running time: 45.274 secondes
+Test point 42 passed
+
+KDTree searching running time: 0.156917 secondes
+Brute force searching running time: 42.6552 secondes
+Test point 43 passed
+
+KDTree searching running time: 0.248581 secondes
+Brute force searching running time: 42.3097 secondes
+Test point 44 passed
+
+KDTree searching running time: 0.461927 secondes
+Brute force searching running time: 42.535 secondes
+Test point 45 passed
+
+KDTree searching running time: 0.26729 secondes
+Brute force searching running time: 43.1195 secondes
+Test point 46 passed
+
+KDTree searching running time: 0.0909491 secondes
+Brute force searching running time: 42.5573 secondes
+Test point 47 passed
+
+KDTree searching running time: 0.0939579 secondes
+Brute force searching running time: 42.3145 secondes
+Test point 48 passed
+
+KDTree searching running time: 0.134945 secondes
+Brute force searching running time: 42.272 secondes
+Test point 49 passed
+
+KDTree searching running time: 0.060509 secondes
+Brute force searching running time: 43.1642 secondes
+Test point 50 passed
+
+KDTree searching running time: 0.115481 secondes
+Brute force searching running time: 43.5189 secondes
+Test point 51 passed
+
+KDTree searching running time: 0.0791781 secondes
+Brute force searching running time: 43.779 secondes
+Test point 52 passed
+
+KDTree searching running time: 0.185456 secondes
+Brute force searching running time: 44.4619 secondes
+Test point 53 passed
+
+KDTree searching running time: 0.234639 secondes
+Brute force searching running time: 45.3916 secondes
+Test point 54 passed
+
+KDTree searching running time: 0.110896 secondes
+Brute force searching running time: 44.7267 secondes
+Test point 55 passed
+
+KDTree searching running time: 0.273577 secondes
+Brute force searching running time: 44.6011 secondes
+Test point 56 passed
+
+KDTree searching running time: 0.724957 secondes
+Brute force searching running time: 43.9254 secondes
+Test point 57 passed
+
+KDTree searching running time: 0.128422 secondes
+Brute force searching running time: 44.2436 secondes
+Test point 58 passed
+
+KDTree searching running time: 0.173378 secondes
+Brute force searching running time: 44.8468 secondes
+Test point 59 passed
+
+KDTree searching running time: 0.181332 secondes
+Brute force searching running time: 45.4351 secondes
+Test point 60 passed
+
+KDTree searching running time: 0.28424 secondes
+Brute force searching running time: 46.4939 secondes
+Test point 61 passed
+
+KDTree searching running time: 0.315116 secondes
+Brute force searching running time: 44.1069 secondes
+Test point 62 passed
+
+KDTree searching running time: 0.190485 secondes
+Brute force searching running time: 44.022 secondes
+Test point 63 passed
+
+KDTree searching running time: 0.496185 secondes
+Brute force searching running time: 44.7383 secondes
+Test point 64 passed
+
+KDTree searching running time: 0.177033 secondes
+Brute force searching running time: 44.779 secondes
+Test point 65 passed
+
+KDTree searching running time: 0.260836 secondes
+Brute force searching running time: 44.509 secondes
+Test point 66 passed
+
+KDTree searching running time: 0.550508 secondes
+Brute force searching running time: 44.6895 secondes
+Test point 67 passed
+
+KDTree searching running time: 0.359861 secondes
+Brute force searching running time: 43.9861 secondes
+Test point 68 passed
+
+KDTree searching running time: 0.141977 secondes
+Brute force searching running time: 44.8233 secondes
+Test point 69 passed
+
+KDTree searching running time: 0.484628 secondes
+Brute force searching running time: 45.8225 secondes
+Test point 70 passed
+
+KDTree searching running time: 0.468263 secondes
+Brute force searching running time: 46.367 secondes
+Test point 71 passed
+
+KDTree searching running time: 0.531764 secondes
+Brute force searching running time: 45.1352 secondes
+Test point 72 passed
+
+KDTree searching running time: 0.164547 secondes
+Brute force searching running time: 45.3419 secondes
+Test point 73 passed
+
+KDTree searching running time: 0.251273 secondes
+Brute force searching running time: 44.036 secondes
+Test point 74 passed
+
+KDTree searching running time: 0.121481 secondes
+Brute force searching running time: 44.1014 secondes
+Test point 75 passed
+
+KDTree searching running time: 0.122708 secondes
+Brute force searching running time: 44.4888 secondes
+Test point 76 passed
+
+KDTree searching running time: 0.127238 secondes
+Brute force searching running time: 42.9496 secondes
+Test point 77 passed
+
+KDTree searching running time: 0.200329 secondes
+Brute force searching running time: 42.3913 secondes
+Test point 78 passed
+
+KDTree searching running time: 0.306239 secondes
+Brute force searching running time: 42.4307 secondes
+Test point 79 passed
+
+KDTree searching running time: 0.523695 secondes
+Brute force searching running time: 42.2757 secondes
+Test point 80 passed
+
+KDTree searching running time: 0.207046 secondes
+Brute force searching running time: 42.6061 secondes
+Test point 81 passed
+
+KDTree searching running time: 0.290757 secondes
+Brute force searching running time: 43.247 secondes
+Test point 82 passed
+
+KDTree searching running time: 0.132574 secondes
+Brute force searching running time: 43.2166 secondes
+Test point 83 passed
+
+KDTree searching running time: 0.306296 secondes
+Brute force searching running time: 46.7323 secondes
+Test point 84 passed
+
+KDTree searching running time: 0.276282 secondes
+Brute force searching running time: 45.9688 secondes
+Test point 85 passed
+
+KDTree searching running time: 0.16792 secondes
+Brute force searching running time: 43.5139 secondes
+Test point 86 passed
+
+KDTree searching running time: 0.443607 secondes

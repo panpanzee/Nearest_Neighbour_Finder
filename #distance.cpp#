@@ -1,0 +1,12 @@
+
+
+class KdPointConvertable {
+public:
+  virtual std::string to_string() const = 0;
+  double get_cordinates(const size_t axis) const;
+  void set_cordinates(const size_t axis, const double value);
+  size_t get_dimensions() const { return m_cordinates.size(); }
+  
+protected:
+  std::vector<double> m_cordinates;
+};
