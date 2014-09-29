@@ -3,10 +3,10 @@ Nearest_Neighbour_Finder
 
 An implementation of K nereast neighbor finder based on kd_tree.
 
-Usage:
+Main prog usage:
   
   1. Check out the code to a local direcotry
-  2. To build the main prog, runn 
+  2. To build the main prog, run 
         $ g++ kd_tree.cpp nearest_neighbour.cpp -o NN_finder -O3 -lboost_thread-mt
   3. Read the help page of the main prog by calling
         $ ./NN_finder help
@@ -55,3 +55,11 @@ Usage:
         
         Entering Q for quit, others for continue.
         q
+
+Test usage after checking out the code:
+  1. To build the test prog, run 
+     $ g++ kd_tree.cpp test.cpp -o NN_test -O3 -lboost_thread-mt
+  2. Read the help page of the test prog by calling
+        $ ./NN_test
+  2. Sample usage:
+        $ ./NN_test 3 10000 20 10 10 1 2
