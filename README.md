@@ -11,7 +11,7 @@ Main prog usage:
         $ g++ kd_tree.cpp nearest_neighbour.cpp -o NN_finder -O3 -lboost_thread-mt
   3. Read the help page of the main prog by calling
         $ ./NN_finder help
-  4. Sample usage: (Noting that for large data set (i.e more than tens of million of people), the initial lauching time could be as much as tens of minutes. Please be patient as it's only to make the query quick. You can also select the fast lauch option, please refer to ./NN_finder help or read the heading comments in the source file nearest_neighbour.cpp) 
+  4. Sample usage: (Noting that for large data set (i.e more than tens of million of people), the initial lauching time could be as much as tens of minutes. Please be patient as it's only to make the query quick. You can also select the fast lauch option. Please refer to ./NN_finder help or read the heading comments in the source file nearest_neighbour.cpp) 
 
         $ ./NN_finder 10
         Launching Nearest Neighbours Finder ...
