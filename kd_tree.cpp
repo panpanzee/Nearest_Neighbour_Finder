@@ -2,16 +2,29 @@
 #include <boost/lexical_cast.hpp>
 #include <boost/bind.hpp>
 #include <boost/function.hpp>
-#include <iostream>     // cout, endl
+#include <iostream>
 #include <ostream>
-#include <queue>          // std::priority_queue
+#include <queue>
 #include <math.h>
-#include <algorithm>    // std::reverse
+#include <algorithm>
 #include <limits>
 #include <stdexcept>
 #include <boost/date_time.hpp>
 #include <boost/thread.hpp> 
 #include <numeric>
+
+/****************
+Core implemention of kd_tree.
+I adopt the standard design of kd_tree here with several implmentatino tricks to boost the performance. Because the progarm is consider to be running on a relatively large data set, I care both the space complesity and the time complexity.
+1. Using a vector of shared pointer to keep track of the points, such that the actual is stored only once.
+2. Using iterators of shared pointers for sorting and partitioning, such that the actual data is never copied around.
+3. Checking the actual running time in searching, and early stop if 1 sec limit is reached, to make sure we always finish within 1 sec.
+4. Supporting quick_select algorithm for finding median and partitionion around it. It is O(N) in average, compared with O(nlogn) for sorting and find median.
+5. Normalising the data before constructing the kd_tree and providing support for weighted euclidean distance.
+6. Leaf node size is customizable, to allow the client code to optimise the performance.
+7.Supporting fast but not optimised tree constrution algorithm. This is usefull when the data set is too big and the launching time takes so long.
+***************/
+
 
 using namespace std;
 using namespace boost;
@@ -268,7 +281,6 @@ struct Candidate {
     : m_distance(ditance), m_content(content)
   {}
 
-  // It's to fetch the worst candidate in the priority queue
   bool operator<(const Candidate& rhs) const
   {
     return m_distance < rhs.m_distance;
@@ -458,25 +470,3 @@ vector<shared_ptr<KdPointConvertable> > KdTree::get_NN(const size_t number_of_NN
   reverse(final_candidates.begin(), final_candidates.end());
   return final_candidates;
 }
-
-// int main(int argc, char **argv)
-// {
-//   if(argc != 4)
-//     return 1;
-
-//   double x = atof(argv[1]);
-//   double y = atof(argv[2]);
-//   int k = atoi(argv[3]);
-
-//   std::vector<boost::shared_ptr<KdPointConvertable> > inputs;
-//   inputs.push_back(boost::shared_ptr<KdPointConvertable>(new XY(0, 0)));
-//   inputs.push_back(boost::shared_ptr<KdPointConvertable>(new XY(1, 1)));
-//   inputs.push_back(boost::shared_ptr<KdPointConvertable>(new XY(0, 2)));
-//   inputs.push_back(boost::shared_ptr<KdPointConvertable>(new XY(-1, -1)));
-//   KdTree kdtree(inputs);
-//   XY p1(x, y);
-//   std::vector<boost::shared_ptr<KdPointConvertable> > neighbours(kdtree.get_NN(k, p1));
-//   cout<<"size: "<<neighbours.size()<<endl;
-//   for(int i = 0; i < neighbours.size(); i++)
-//     cout<<neighbours[i]->to_string()<<endl;
-// }

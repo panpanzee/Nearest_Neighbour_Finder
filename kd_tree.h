@@ -4,6 +4,10 @@
 #include <vector>
 #include <string>
 
+// Kd tree node base class
+// We use this to store the cordinates
+// Derived class should populate the cordinates vector
+// The dimension is determined by the actual size of the cordinates vector
 class KdPointConvertable {
 public:
   virtual void print(std::ostream& out) const {}
@@ -22,11 +26,17 @@ protected:
   std::vector<double> m_cordinates;
 };
 
+// Helper functions to calculate the distance
+// and set weights on dimensions
 namespace Distance{
   double get_euclidean_distance(const KdPointConvertable* p1, const KdPointConvertable* p2);
   void set_weights(std::vector<double> weights);
 }
 
+
+// Normalisation class
+// Used to normalise input data
+// and also transform query points to normalised space
 class Normaliser {
 public:
   void normalisation(std::vector<boost::shared_ptr<KdPointConvertable> >& points);
@@ -38,8 +48,11 @@ private:
   std::vector<double> m_ranges;
 };
 
+// Forward declaration of the Kd tree node class
 class KdNode;
 
+// Kd tree class
+// Construct it with a vector of pointers to KdPointConvertable, and a normaliser.
 class KdTree {
 public:
   KdTree(std::vector<boost::shared_ptr<KdPointConvertable> >& points, boost::shared_ptr<Normaliser> normaliser);
@@ -63,5 +76,3 @@ private:
   boost::shared_ptr<KdNode> m_root;
   boost::shared_ptr<Normaliser> m_normaliser;
 };
-
-extern bool g_timer_finished;
