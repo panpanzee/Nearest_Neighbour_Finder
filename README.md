@@ -62,4 +62,88 @@ Test usage after checking out the code:
   2. Read the help page of the test prog by calling
         $ ./NN_test
   2. Sample usage:
-        $ ./NN_test 3 10000 20 10 10 1 2
+        $ ./NN_test 3 1000000 20 10 10 1 2
+        KDTree construction running time: 1.83658 secondes
+        Brute force construction running time: 0.0777631 secondes
+        KDTree searching running time: 0.17951 secondes
+        Brute force searching running time: 0.182744 secondes
+        Test point 1 passed
+        
+        KDTree searching running time: 0.185978 secondes
+        Brute force searching running time: 0.173287 secondes
+        Test point 2 passed
+        
+        KDTree searching running time: 0.180951 secondes
+        Brute force searching running time: 0.174184 secondes
+        Test point 3 passed
+        
+        KDTree searching running time: 0.177471 secondes
+        Brute force searching running time: 0.183044 secondes
+        Test point 4 passed
+        
+        KDTree searching running time: 0.182662 secondes
+        Brute force searching running time: 0.18032 secondes
+        Test point 5 passed
+        
+        KDTree searching running time: 0.174203 secondes
+        Brute force searching running time: 0.177689 secondes
+        Test point 6 passed
+        
+        KDTree searching running time: 0.190131 secondes
+        Brute force searching running time: 0.188606 secondes
+        Test point 7 passed
+        
+        KDTree searching running time: 0.17636 secondes
+        Brute force searching running time: 0.176076 secondes
+        Test point 8 passed
+        
+        KDTree searching running time: 0.172422 secondes
+        Brute force searching running time: 0.177449 secondes
+        Test point 9 passed
+        
+        KDTree searching running time: 0.192135 secondes
+        Brute force searching running time: 0.182918 secondes
+        Test point 10 passed
+        
+        KDTree searching running time: 0.184402 secondes
+        Brute force searching running time: 0.181628 secondes
+        Test point 11 passed
+        
+        KDTree searching running time: 0.182871 secondes
+        Brute force searching running time: 0.181939 secondes
+        Test point 12 passed
+        
+        KDTree searching running time: 0.183759 secondes
+        Brute force searching running time: 0.185659 secondes
+        Test point 13 passed
+        
+        KDTree searching running time: 0.190051 secondes
+        Brute force searching running time: 0.173445 secondes
+        Test point 14 passed
+        
+        KDTree searching running time: 0.176339 secondes
+        Brute force searching running time: 0.192267 secondes
+        Test point 15 passed
+        
+        KDTree searching running time: 0.182864 secondes
+        Brute force searching running time: 0.185369 secondes
+        Test point 16 passed
+        
+        KDTree searching running time: 0.18668 secondes
+        Brute force searching running time: 0.185134 secondes
+        Test point 17 passed
+        
+        KDTree searching running time: 0.179102 secondes
+        Brute force searching running time: 0.180157 secondes
+        Test point 18 passed
+        
+        KDTree searching running time: 0.19316 secondes
+        Brute force searching running time: 0.20231 secondes
+        Test point 19 passed
+        
+        KDTree searching running time: 0.220315 secondes
+        Brute force searching running time: 0.190524 secondes
+        Test point 20 passed
+        
+        All test passed.
+
