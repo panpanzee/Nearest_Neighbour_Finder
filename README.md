@@ -2,6 +2,7 @@ Nearest_Neighbour_Finder
 ========================
 
 An implementation of K nereast neighbor finder based on kd_tree.
+The design ideas and implementatin details can be found in each of the header and source files.
 
 Main prog usage:
   
@@ -12,7 +13,7 @@ Main prog usage:
   3. Read the help page of the main prog by calling
 
         $ ./NN_finder help
-  4. Sample usage:
+  4. Sample usage: (Noting that for large data set (i.e more than tens of million of people), the initial lauching time could be as much as tens of minutes. Please be patient as it's only to make the query quick. You can also select the fast lauch option. Please refer to ./NN_finder help or read the heading comments in the source file nearest_neighbour.cpp) 
 
         $ ./NN_finder 10
         Launching Nearest Neighbours Finder ...
