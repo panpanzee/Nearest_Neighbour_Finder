@@ -204,20 +204,9 @@ int main(int argc, char **argv)
     double latitude = 181;
     double longtitude = 181;
     
-    cin.clear();
-    cin.ignore(numeric_limits<streamsize>::max(), '\n');
-    
     cin>>age;
-    if(cin.fail())
-      continue;
-
     cin>>latitude;
-    if(cin.fail())
-      continue;
-
     cin>>longtitude;
-    if(cin.fail())
-      continue;
     
     if(!is_input_valid(age, latitude, longtitude)){
       cin.clear();
