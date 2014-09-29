@@ -15,14 +15,14 @@
 
 /****************
 Core implemention of kd_tree.
-I adopt the standard design of kd_tree here with several implmentatino tricks to boost the performance. Because the progarm is consider to be running on a relatively large data set, I care both the space complesity and the time complexity.
-1. Using a vector of shared pointer to keep track of the points, such that the actual is stored only once.
-2. Using iterators of shared pointers for sorting and partitioning, such that the actual data is never copied around.
-3. Checking the actual running time in searching, and early stop if 1 sec limit is reached, to make sure we always finish within 1 sec.
-4. Supporting quick_select algorithm for finding median and partitionion around it. It is O(N) in average, compared with O(nlogn) for sorting and find median.
-5. Normalising the data before constructing the kd_tree and providing support for weighted euclidean distance.
-6. Leaf node size is customizable, to allow the client code to optimise the performance.
-7.Supporting fast but not optimised tree constrution algorithm. This is usefull when the data set is too big and the launching time takes so long.
+I adopt the standard design of kd_tree here with several implementation tricks to boost the performance. Because the program is considered to be running on a relatively large data set, I considered both the space complexity and the time complexity.
+1. Using a vector of shared pointer to keep track of the points, such that the actual data is stored only once.
+2. Using iterators of shared pointers for sorting and partitioning, such that the actual data is never copied around or swapped, only pointers are.
+3. Checking the actual running time in searching, and early stopping if 1 sec limit is reached, to make sure we always finish within 1 sec.
+4. Supporting quick_select algorithm for finding median and partitioning around it. It is O(N) in average, compared with O(nlogn) for sorting and finding median.
+5. Normalizing the data before constructing the kd_tree and providing support for weighted euclidean distance.
+6. Leaf node size is customizable, to allow the client code to optimize the performance.
+7.Supporting fast but not optimized tree construction algorithm. This is useful when the data set is too big and the launching time takes so long.
 ***************/
 
 
