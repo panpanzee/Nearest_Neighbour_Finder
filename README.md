@@ -11,6 +11,7 @@ Main prog usage:
   3. Read the help page of the main prog by calling
         $ ./NN_finder help
   4. Sample usage:
+
         $ ./NN_finder 10
         Launching Nearest Neighbours Finder ...
         Launching finished.
@@ -62,6 +63,7 @@ Test usage after checking out the code:
   2. Read the help page of the test prog by calling
         $ ./NN_test
   2. Sample usage:
+
         $ ./NN_test 3 1000000 20 10 10 1 2
         KDTree construction running time: 1.83658 secondes
         Brute force construction running time: 0.0777631 secondes
