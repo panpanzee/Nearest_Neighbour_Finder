@@ -6,20 +6,20 @@
 #include <sys/time.h>
 
 /*******************
-Main prog for testing
+Testing prog
 
 The result of Kd_tree searching is compared with the result of brute force searching.
-Upon launching, it generates a set of random points given the command line inpu and
+Upon launching, it generates a set of random points given the command line input and
 use the points to construct the kd_tree and the brute force searcher.
 
-There are 2 sets of paramenters that can be specified through the command line, problem specification parameters and performance tweaking parameters.
-The former includes the dimension of the points, the size of input data set, the size of test data set, and the number of nerest neighbour it's aiming to search for. 
-The latter contains the size of the kd_tree leaf node and 2 algorithm involved in kd_tree constructino.
+There are 2 sets of parameters that can be specified through the command line, problem specification parameters and performance tweaking parameters.
+The former includes the dimensionality of the points, the size of the input data set, the size of the test data set, and the number of nearest neighbors it's aiming to find. 
+The latter contains the size of the kd_tree leaf node and 2 algorithm involved in kd_tree construction.
 One is the algorithm used in partition selection. It can be selected between ROUND_BORIN and MOST_SPREAD_OUT( LARGEST_VARIANCE).
 The other one is the partition algorithm. It can be selected among SORTING_AND_CHOOSE_MEDIAN, RANDOM, AND QUICK_SELECT_FOR_MEDIAN.
 
-Then, we compare the result of each test point between kd_tree and brute force searching.
-We only consider a test case to pass if all of the N nerest neighbours from both alrithms return are the same.
+Then, it compare the result of each test point between kd_tree and brute force searching.
+I only consider a test case to pass if all of the N nearest neighbors returned from both algorithms are the same.
 The final pass rate of running time in each section are printed to the standard output.
 
 ********************/
